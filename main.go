@@ -45,7 +45,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 	name := r.FormValue("name")
 	beltGrade := r.FormValue("beltGrade")
 
-	fmt.Fprintf(w, "Name = %s\n", name)
-	fmt.Fprintf(w, "Grade of belt = %s\n", beltGrade)
+	fmt.Fprintf(w, "Name of Student= %s\n", name)
+	fmt.Fprintf(w, "Grade of Belt = %s\n", beltGrade)
 
 }
